@@ -54,6 +54,7 @@ i_have_a_folder() {
   echo "[Install]" | cat >> test.mount
   echo "WantedBy=multi-user.target" | cat >> test.mount
 }
+set -e
 path_to_systemd=/etc/systemd/system
 current_directory=$(pwd)
 user_check
