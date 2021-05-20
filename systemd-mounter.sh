@@ -10,7 +10,7 @@ user_check() {
 }
 reg() {
   clear
-  echo "Do you have a folder for your partition?
+  echo "Do you have folder for your partition?
   1) Yes
   2) No"
   read arg
